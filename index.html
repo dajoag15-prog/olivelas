@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Olivelas - Tienda de Velas Aromáticas</title>
+  <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">✨ Olivelas</h1>
+      
+      <nav class="nav">
+        <a href="#home">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#about">Sobre nosotros</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container">
+        <img src="img/icon.jpg" alt="Vela aromática decorativa" width="250">
+        <h2>Velas Aromáticas & Decorativas</h2>
+        <p>Hechas a mano para cumpleaños, bodas y toda ocasión especial ✨</p>
+        <a class="btn" href="#productos">Ver productos</a>
+      </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="container productos">
+      <h3>Nuestros Productos</h3>
+      <div class="gallery">
+        <div class="card">
+          <img src="img/01.JPG" alt="Vela aromática floral">
+          <h4>Vela Floral</h4>
+          <p>Aroma a flores silvestres, ideal para bodas.</p>
+        </div>
+        <div class="card">
+          <img src="images/vela2.jpg" alt="Vela aromática frutal">
+          <h4>Vela Frutal</h4>
+          <p>Fragancia cítrica, perfecta para cumpleaños.</p>
+        </div>
+        <div class="card">
+          <img src="images/vela3.jpg" alt="Vela decorativa ">
+          <h4>Vela Minimal</h4>
+          <p>Decoración elegante para cualquier espacio.</p>          
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="container about">
+      <h3>Sobre Nosotros</h3>
+      <p>
+        En <strong>Olivelas</strong> diseñamos velas únicas, hechas a mano con cera natural, aromas delicados y detalles decorativos que hacen de cada evento un recuerdo inolvidable.
+      </p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="container contact">
+      <h3>Contáctanos</h3>
+      <form action="https://formsubmit.co/dajoag15@gmail.com" method="POST">
+  <div class="field">
+    <label for="name">Nombre</label>
+    <input id="name" name="name" type="text" required>
+  </div>
+
+  <div class="field">
+    <label for="email">Correo electrónico</label>
+    <input id="email" name="email" type="email" required>
+  </div>
+
+  <div class="field">
+    <label for="message">Mensaje</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+  </div>
+
+  <!-- Opcional: configuración -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="gracias.html">
+
+  <button type="submit" class="btn">Enviar</button>
+</form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <h4>Redes sociales</h4>
+      <div class="social-links">
+        <a href="https://facebook.com/tuUsuario" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/velas3014/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+         <a href="https://wa.me/521234567890" target="_blank" aria-label="WhatsApp">
+         <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <p>© <span id="year"></span> Velas Creativas</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
